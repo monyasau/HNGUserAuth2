@@ -6,7 +6,7 @@ require("dotenv").config();
 const dialectModule = { mysql: mysql, postgres: pg };
 
 const dbConfig = {
-  database_name: process.env.DB_NAME || "hng-database",
+  database_name: process.env.DB_NAME || "hnguserauth",
   database_user: process.env.DB_USER || "root",
   database_password: process.env.DB_PASSWORD || "0756abwmB$",
   database_host: process.env.DB_HOST || "localhost",
